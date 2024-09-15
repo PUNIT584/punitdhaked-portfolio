@@ -6,7 +6,7 @@
   font-family: 'MyCustomFont2';
   src: url('./font/magic_retro/Magic\ Retro.ttf') format('truetype');
 }
-#logo{
+.logo{
   font-family: 'MyCustomFont2', sans-serif;
 }
 
