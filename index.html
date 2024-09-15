@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" class="rounded-full" href="./img/Untitled design (4).png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css ">
+    <title>Punit Dhaked</title>
+</head> 
+
+<body>
+
+    <header class="text-gray-400 bg-gray-900 body-font flex flex-row h-16" id="home">
+        <!-- <svg class="w-60 h-60 " id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-10 157 400 290">
+            <path id="path0"
+                d="M200.683 116.040 C 198.993 116.321,197.381 116.418,197.099 116.256 C 196.817 116.093,196.587 116.319,196.587 116.756 C 196.587 117.194,196.126 117.375,195.563 117.159 C 195.000 116.943,194.539 117.064,194.539 117.428 C 194.539 117.791,193.998 118.089,193.336 118.089 C 191.600 118.089,185.361 122.462,183.366 125.078 C 176.831 133.646,180.576 143.345,190.420 143.345 C 194.282 143.345,195.191 142.524,193.209 140.827 C 189.435 137.596,189.170 129.958,192.636 124.342 C 195.200 120.188,196.323 127.767,195.349 142.662 C 195.042 147.355,194.816 151.251,194.846 151.319 C 194.877 151.388,197.150 151.536,199.898 151.649 C 202.646 151.762,205.001 152.027,205.132 152.239 C 205.263 152.451,208.078 152.389,211.388 152.102 L 217.406 151.581 220.931 147.925 C 227.710 140.895,227.990 129.330,221.550 122.384 C 220.585 121.343,219.795 120.313,219.795 120.094 C 219.795 119.278,213.722 116.701,210.243 116.042 C 206.273 115.289,205.202 115.289,200.683 116.040 M57.850 117.005 C 56.067 117.485,54.608 117.774,54.608 117.648 C 54.608 116.994,47.826 121.727,45.970 123.677 C 38.333 131.699,41.765 143.481,51.685 143.297 C 56.364 143.210,57.014 142.579,54.706 140.367 C 50.312 136.157,50.395 128.484,54.886 123.723 L 57.153 121.320 57.075 136.381 L 56.997 151.442 58.593 151.747 C 60.128 152.041,66.261 151.757,66.556 151.378 C 66.635 151.277,66.452 149.044,66.149 146.416 C 65.463 140.455,65.475 129.300,66.173 123.891 C 66.814 118.926,67.157 119.303,63.111 120.521 C 58.695 121.850,57.034 121.543,59.557 119.863 C 62.226 118.087,67.719 118.105,70.140 119.898 C 76.885 124.895,76.497 131.496,69.142 136.843 C 66.443 138.805,65.640 140.541,67.662 140.041 C 68.178 139.913,70.408 139.516,72.617 139.158 C 78.435 138.215,84.493 134.055,84.694 130.864 C 84.723 130.407,84.859 129.426,84.998 128.683 C 86.601 120.073,71.150 113.427,57.850 117.005 M208.552 120.149 C 216.094 124.810,217.552 144.724,210.720 149.760 C 205.607 153.529,203.198 143.694,204.802 125.597 C 205.392 118.939,205.397 118.953,202.943 120.071 C 200.631 121.125,194.906 122.224,195.674 121.467 C 198.577 118.608,204.996 117.951,208.552 120.149 M236.206 123.324 C 234.908 123.889,232.605 124.565,231.087 124.826 C 228.482 125.274,228.347 125.413,228.669 127.326 C 228.857 128.440,229.010 133.345,229.010 138.225 C 229.010 143.106,228.857 148.020,228.669 149.147 L 228.328 151.195 233.447 151.195 L 238.567 151.195 238.340 146.877 C 238.089 142.081,239.215 136.315,240.634 135.137 C 242.012 133.994,242.600 138.197,242.082 145.494 L 241.653 151.536 246.838 151.536 C 251.445 151.536,251.973 151.406,251.576 150.371 C 251.330 149.731,250.965 145.661,250.765 141.327 C 250.159 128.209,245.137 123.888,239.686 131.793 L 238.075 134.130 238.553 128.157 C 238.815 124.872,238.926 122.209,238.798 122.240 C 238.671 122.271,237.504 122.758,236.206 123.324 M291.468 123.037 C 290.529 123.418,288.225 124.100,286.348 124.551 L 282.935 125.371 283.276 129.409 C 283.464 131.630,283.618 135.597,283.618 138.225 C 283.618 140.853,283.464 144.846,283.276 147.099 L 282.935 151.195 288.032 151.195 L 293.128 151.195 292.966 147.782 C 292.846 145.245,292.981 144.657,293.494 145.490 C 294.145 146.547,294.716 148.769,294.830 150.683 C 294.882 151.554,305.802 151.999,305.802 151.129 C 305.802 150.906,305.212 149.894,304.490 148.881 C 303.769 147.867,302.325 145.209,301.282 142.973 C 300.240 140.737,299.268 138.677,299.124 138.396 C 298.980 138.114,299.272 137.872,299.772 137.857 C 301.622 137.803,305.371 131.704,304.704 129.835 C 303.248 125.751,299.375 126.206,299.248 130.476 C 299.161 133.401,298.370 134.873,295.288 137.837 C 292.007 140.994,291.847 140.574,292.644 130.903 C 293.445 121.173,293.595 122.173,291.468 123.037 M349.147 123.587 C 347.645 124.297,345.597 124.887,344.596 124.897 C 342.459 124.918,342.035 125.757,342.515 129.010 C 342.866 131.388,342.861 131.393,341.441 130.137 C 333.794 123.366,326.643 138.810,333.865 146.498 C 334.705 147.392,335.108 148.132,334.761 148.144 C 334.414 148.156,335.358 148.922,336.860 149.847 C 340.433 152.048,353.407 152.473,352.597 150.362 C 352.010 148.833,352.011 126.321,352.598 123.982 C 353.123 121.889,352.811 121.853,349.147 123.587 M154.409 127.492 C 151.091 128.848,150.219 129.492,150.569 130.323 C 150.819 130.915,151.215 135.343,151.450 140.164 C 151.981 151.056,152.941 152.234,160.751 151.578 C 166.474 151.098,167.233 141.980,161.550 141.980 L 159.727 141.980 159.727 136.519 L 159.727 131.058 161.775 131.058 C 163.140 131.058,163.823 130.717,163.823 130.034 C 163.823 129.365,163.153 129.010,161.891 129.010 C 160.354 129.010,159.971 128.711,160.014 127.543 C 160.090 125.495,159.311 125.488,154.409 127.492 M140.956 126.836 C 138.904 127.238,137.201 129.028,137.201 130.784 C 137.201 134.164,143.396 135.785,146.075 133.106 C 149.165 130.015,145.795 125.888,140.956 126.836 M124.690 129.429 C 123.628 130.005,122.334 131.451,121.816 132.644 L 120.873 134.812 120.846 131.838 C 120.823 129.290,120.648 128.930,119.625 129.326 C 118.968 129.581,117.022 130.115,115.301 130.514 L 112.173 131.240 112.173 141.388 L 112.173 151.536 117.225 151.536 C 121.710 151.536,122.238 151.402,121.938 150.341 C 120.706 145.989,120.777 140.825,122.112 137.710 C 123.323 134.887,125.696 132.816,124.676 135.473 C 124.465 136.024,124.568 136.646,124.906 136.855 C 125.576 137.269,125.329 147.789,124.595 150.104 C 124.160 151.473,124.369 151.536,129.379 151.536 C 133.936 151.536,134.562 151.391,134.191 150.425 C 133.957 149.815,133.600 146.052,133.399 142.064 C 132.836 130.910,132.708 130.425,130.015 129.300 C 127.189 128.119,127.103 128.121,124.690 129.429 M258.365 130.258 C 255.140 132.487,254.699 133.880,256.613 135.794 C 259.378 138.558,263.725 137.225,263.044 133.821 C 262.633 131.764,264.197 129.980,265.856 130.617 C 268.651 131.689,266.165 136.676,262.204 137.941 C 256.451 139.778,254.181 142.364,254.055 147.223 C 253.992 149.682,257.123 152.273,259.644 151.847 C 263.426 151.208,264.160 150.793,265.255 148.675 L 266.331 146.594 267.581 148.649 C 269.614 151.992,273.463 152.926,277.358 151.023 C 281.994 148.758,281.814 141.980,277.117 141.980 C 274.755 141.980,274.780 141.920,276.105 144.461 C 277.306 146.764,277.420 148.548,276.405 149.175 C 275.131 149.962,274.919 149.029,274.587 141.154 C 274.222 132.515,273.552 130.806,269.935 129.295 C 266.120 127.701,261.509 128.085,258.365 130.258 M316.034 129.029 C 308.936 130.927,305.525 137.569,307.946 144.779 C 310.678 152.913,322.591 154.450,326.990 147.236 C 328.851 144.184,328.695 143.845,325.660 144.358 C 322.157 144.950,318.342 143.843,315.934 141.536 C 313.025 138.749,313.365 138.567,321.454 138.567 L 328.915 138.567 328.337 136.553 C 326.783 131.133,321.118 127.669,316.034 129.029 M89.734 130.634 L 85.610 132.082 86.111 134.812 C 86.386 136.314,86.628 139.472,86.650 141.831 C 86.714 148.765,89.062 152.603,92.800 151.883 C 95.810 151.304,96.627 150.830,97.803 148.981 L 98.999 147.099 98.817 149.147 L 98.635 151.195 103.413 151.392 L 108.191 151.589 108.191 140.292 C 108.191 130.531,108.052 129.049,107.167 129.388 C 106.604 129.605,104.454 130.251,102.389 130.826 L 98.635 131.870 98.606 137.437 C 98.546 148.872,95.735 148.713,95.429 137.257 C 95.195 128.450,95.370 128.655,89.734 130.634 M314.727 132.616 C 315.318 133.073,316.366 134.313,317.055 135.372 L 318.308 137.297 315.639 137.078 C 313.092 136.870,312.960 136.742,312.757 134.300 C 312.535 131.608,312.957 131.247,314.727 132.616 M342.871 137.901 C 343.101 139.206,343.059 141.962,342.777 144.027 L 342.264 147.782 341.041 145.486 C 339.444 142.491,338.774 136.208,339.905 134.844 C 341.056 133.457,342.316 134.756,342.871 137.901 M143.686 135.514 C 142.184 136.009,140.087 136.437,139.024 136.466 C 137.192 136.516,137.121 136.632,137.650 138.737 C 138.359 141.565,138.372 145.705,137.681 148.976 L 137.140 151.536 142.218 151.536 C 147.205 151.536,147.294 151.505,147.197 149.830 C 147.143 148.892,146.824 148.124,146.488 148.123 C 146.144 148.123,146.041 145.141,146.253 141.297 C 146.460 137.543,146.581 134.503,146.523 134.543 C 146.464 134.582,145.188 135.019,143.686 135.514 M265.212 143.981 C 264.616 145.133,263.796 146.075,263.390 146.075 C 262.428 146.075,263.204 142.874,264.714 140.614 C 266.346 138.172,266.761 140.984,265.212 143.981 M161.775 147.628 C 161.775 150.853,160.090 149.418,159.891 146.022 C 159.725 143.213,159.785 143.096,160.744 144.328 C 161.311 145.057,161.775 146.542,161.775 147.628 "
+                stroke="none" fill="#000000" fill-rule="evenodd"></path>
+        </svg> -->
+        <div class="container mx-auto flex flex-wrap p-5 flex-row md:flex-row items-center justify-between">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0 hover:cursor-pointer">
+                <span id="logo" class="ml-3 text-xl hover:cursor-pointer font-medium tracking-wider">Punit Dhaked</span>
+            </a>
+            <!-- Hamburger Icon -->
+            <div class="pb-5 md:hidden flex items-center">
+                <button id="menu-toggle" class="text-white hover:text-gray-400 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Navigation Menu -->
+            <nav id="menu"
+                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center md:justify-start hidden md:flex">
+                <!-- <a class="mr-5 hover:text-white cursor-pointer">Works</a> -->
+                <a class="mr-5 hover:text-white cursor-pointer" onclick="window.location.href='#about_me'">About me</a>
+                <a class="mr-5 hover:text-white cursor-pointer"
+                    onclick="window.location.href='#designing_works'">Designing
+                    Works</a>
+                <a class="mr-5 hover:text-white cursor-pointer"
+                    onclick="window.location.href='#development_works'">Development
+                    Works</a>
+            </nav>
+            <button id="legakya" class="items-center bg-blue-500 border-0 py-1 px-3 text-white focus:outline-none hover:bg-blue-600 rounded text-base mt-4 md:mt-0" onclick="window.location.href='#contact_me'">Contact me</button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="fixed inset-0 bg-gray-900 bg-opacity-90 z-50 hidden md:hidden flex flex-row-reverse">
+            <div class="flex flex-col w-1/2 h-full bg-blue-500 text-white bg-opacity-30">
+                <button id="menu-close" class="self-end p-4">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+                <div class="flex flex-col items-center justify-center h-full">
+                    <a class="text-lg my-5 py-2 hover:text-gray-200" onclick="window.location.href='#about_me'">About me</a>
+                    <a class="text-lg my-5 py-2 hover:text-gray-200"
+                        onclick="window.location.href='#designing_works'">Designing
+                        Works</a>
+                    <a class="text-lg my-5 py-2 hover:text-gray-200"
+                        onclick="window.location.href='#development_works'">Development
+                        Works</a>
+                    <a class="text-lg my-5 py-2 hover:text-gray-200" onclick="window.location.href='#contact_me'">Contact
+                        me</a>
+                </div>
+                <button
+                    class="inline-flex items-center bg-blue-500 border-0 my-20 mx-3 py-1 px-3 text-white focus:outline-none hover:bg-blue-600 rounded text-base mt-4 md:mt-0"
+                    onclick="window.location.href='#contact_me'">Contact me
+                </button>
+            </div>
+            <!-- <div id="overlay" class="absolute inset-0 bg-transparent z-40"></div> -->
+        </div>
+    </header>
+
+    <!-- <div class="unique-container px-0 mx-0">
+        <div class="unique-text-container mx-0 px-0 cursor-default" style="opacity: 70%;">
+          <p id="unique-reveal-text-1" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-2" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-3" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-1" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-2" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-3" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-1" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-2" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-3" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-1" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-2" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-3" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+          <p id="unique-reveal-text-3" class="font-bold">
+            <span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span><span>DESIGN</span>
+          </p>
+        </div>
+        <div class="unique-light-source" id="unique-light"></div>
+      </div> -->
+
+    <section class="relative bg-gray-900 text-white px-5 py-40">
+        <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('./');"></div>
+        <div class="container mx-auto flex flex-col items-center justify-center relative z-10">
+            <h1 id="sexy" class="text-5xl font-bold tracking-wider mb-6 text-center">
+                Hey there! I am a
+                <span id="changingText" class="text-blue-500">Web Developer</span>
+            </h1>
+            <p class="text-lg mb-8 text-center max-w-2xl">Bringing design visions to life with innovative concepts and
+                cutting-edge web development. Explore my gallery to see the fusion of creativity and technology.</p>
+            <a href="#designing_works"
+                class="inline-flex items-center bg-blue-500 border-0 py-3 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Explore
+                My Works</a>
+        </div>
+    </section>
+
+    <section id="designing_works" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-10 mx-auto flex flex-wrap">
+            <div class="flex w-full mb-16 flex-wrap cursor-default">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4">Showcase of
+                    Stunning
+                    Design Creations and Innovations</h1>
+            </div>
+            <div class="flex flex-wrap md:-m-2 -m-1">
+                <div class="flex flex-wrap w-1/2">
+                    <div class="lund md:p-2 p-1 w-1/2 cursor-pointer">
+                        <img onclick="openModal(this)" class="w-full object-cover h-full object-center block"
+                            src="./img/landing_page_24.png">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2 cursor-pointer">
+                        <img onclick="openModal(this)" alt="gallery"
+                            class="w-full object-cover h-full object-center block"
+                            src="./img/best-landing-page-examples-64e6080f990bb-sej-1280x720.png">
+                    </div>
+                    <div class="gallarymain md:p-2 p-1 w-full cursor-pointer">
+                        <img onclick="openModal(this)" alt="gallery"
+                            class="w-full object-cover h-full object-center block"
+                            src="./img/landing-page-template-design-newsletter_23-2148948010.avif">
+                    </div>
+                </div>
+                <div class="flex flex-wrap w-1/2 cursor-pointer">
+                    <div class="gallarymain md:p-2 p-1 w-full">
+                        <img onclick="openModal(this)" alt="gallery"
+                            class="w-full object-cover h-full object-center block"
+                            src="./img/hiring_artist_website_design_illustration-1.png">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2 cursor-pointer">
+                        <img onclick="openModal(this)" alt="gallery"
+                            class="w-full object-cover h-full object-center block"
+                            src="./img/stock-vector-landing-page-template-of-web-design-modern-flat-design-concept-of-web-page-design-for-website-and-1170634801.jpg">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2 cursor-pointer">
+                        <img onclick="openModal(this)" alt="gallery"
+                            class="w-full object-cover h-full object-center block"
+                            src="./img/web-design-landing-page-template-costumer-service-vector-23795860.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="development_works" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-10 mx-auto flex flex-wrap ">
+            <div class="flex w-full mb-16 flex-wrap cursor-default">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4">Cutting-Edge
+                    Web
+                    Solutions Delivered</h1>
+            </div>
+            <div class="flex flex-wrap md:-m-2 -m-1">
+                <div class="flex flex-wrap w-1/2">
+                    <div class="gallary md:p-2 p-1 w-1/2 cursor-pointer">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="./img/landing_page_24.png">
+                    </div>
+                    <div class="gallary md:p-2 p-1 w-1/2 cursor-pointer">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="./img/best-landing-page-examples-64e6080f990bb-sej-1280x720.png">
+                    </div>
+                    <div class="gallarymain md:p-2 p-1 w-full cursor-pointer">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="./img/landing-page-template-design-newsletter_23-2148948010.avif">
+                    </div>
+                </div>
+                <div class="flex flex-wrap w-1/2 cursor-pointer">
+                    <div class="gallarymain md:p-2 p-1 w-full">
+                        <video class="w-full h-full object-cover object-center block" autoplay loop>
+                            <source src="./HEY - Website - Opera 2024-09-06 23-30-15.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2 cursor-pointer">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="./img/stock-vector-landing-page-template-of-web-design-modern-flat-design-concept-of-web-page-design-for-website-and-1170634801.jpg">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2 cursor-pointer">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block"
+                            src="./img/web-design-landing-page-template-costumer-service-vector-23795860.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden">
+        <div class="relative bg-gray-800 p-4 rounded-lg">
+            <span onclick="closeModal()"
+                class="absolute top-2 right-2 cursor-pointer text-white text-2xl">&times;</span>
+            <img id="modal-img" class="w-full h-auto max-h-screen" src="" alt="Full Size Image">
+        </div>
+    </div>
+
+    <section id="about_me" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex px-10 py-24 md:flex-row flex-col items-center">
+            <div class="container px-0 py-0 mx-auto cursor-default">
+                <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center ">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-500 mb-8" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg> -->
+                    <p class="leading-relaxed text-lg">As a Web Designer and Web Developer, I create visually appealing,
+                        responsive websites that are both user-friendly and technically robust. Combining creativity
+                        with technical
+                        expertise, I design intuitive interfaces and develop fast, secure, and scalable web applications
+                        using
+                        modern technologies like HTML, CSS, JavaScript, and React. From design to deployment, I’m
+                        committed to
+                        delivering high-quality solutions that meet business goals and enhance user experiences.</p>
+                    <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-8 mb-6"></span>
+                    <h2 class="text-white font-medium title-font tracking-wider text-sm">Punit Dhaked</h2>
+                    <p class="text-gray-500">Web Designer & Web Developer</p>
+                    <div class="py-3">
+                        <span class=" inline-flex sm:ml-auto sm:mt-0 justify-center sm:justify-start">
+                            <a class="text-gray-400 cursor-pointer" href="https://m.facebook.com/punitdhaked.584/">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a class="ml-3 text-gray-400 cursor-pointer"
+                                href="https://x.com/dhaked_punit?t=C2yZGJ5hD8xpr4eRCSmIEw&s=35">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a class="ml-3 text-gray-400 cursor-pointer"
+                                href="https://www.instagram.com/punitdhaked?igsh=NTc4MTIwNjQ2YQ==">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                </svg>
+                            </a>
+                            <a class="ml-3 text-gray-400 cursor-pointer"
+                                href="https://www.linkedin.com/in/punit-dhaked-36752b25a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path stroke="none"
+                                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                    </path>
+                                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                </svg>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 py-10 ">
+                <img class="object-cover object-center rounded" alt="hero" src="./img/IMG_20240722_205840.jpg">
+            </div>
+        </div>
+    </section>
+    <section id="contact_me" class="text-gray-400 bg-gray-900 body-font relative">
+        <div class="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div
+                class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <iframe width="100%" height="100%" title="map" class="absolute inset-0" frameborder="0" marginheight="0"
+                    marginwidth="0" scrolling="no"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d889.2266067804826!2d75.72888078936963!3d26.938180779137102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3d939cf9231%3A0xff6d0c8a479bfd3!2sBishnoi%20z%20apartment!5e0!3m2!1sen!2sin!4v1726206661989!5m2!1sen!2sin"
+                    style="filter: grayscale(1) contrast(1.2) opacity(0.16);"></iframe>
+                <div class="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+                    <div class="lg:w-1/2 px-6">
+                        <h2 class="cursor-default title-font font-semibold text-white tracking-widest text-xs">ADDRESS
+                        </h2>
+                        <p class="cursor-default mt-1">F-2 Akshardham Society, Khirni Phatak, Jaipur, Rajasthan</p>
+                    </div>
+                    <div class="cursor-default lg:w-1/2 px-6 mt-4 lg:mt-0">
+                        <h2 class="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
+                        <a class="text-blue-400 leading-relaxed">punitdhaked584@gmail.com</a>
+                        <h2 class="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
+                        <p class="leading-relaxed">+91 9024841267</p>
+                    </div>
+                </div>
+            </div>
+            <form class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+                action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="7895e4f5-69e9-4ac6-9cba-c5e39ba16410">
+                <h2 class="cursor-default text-white text-lg mb-1 font-medium title-font">Contact Us</h2>
+                <p class="cursor-default leading-relaxed mb-5">Fill all contact information carefully.</p>
+                <div class="relative mb-4">
+                    <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
+                    <input type="text" id="name" name="name"
+                        class="w-full bg-gray-800 rounded border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
+                    <input type="email" id="email" name="email"
+                        class="w-full bg-gray-800 rounded border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+                    <textarea id="message" name="message"
+                        class="w-full bg-gray-800 rounded border border-gray-700 focus:border-blue-500 focus:ring-2 focus:ring-blue-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+                <button
+                    class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"
+                    type="submit">Button</button>
+                <div class="cursor-default flex mt-3 justify-center items-center">
+                    <p class="text-xs text-gray-400 text-opacity-90  ">Click submit button to contact US. We will
+                        contact you
+                        soon.</p>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+            onclick="window.location.href='#home'">
+            <a
+                class="flex title-font font-medium items-center md:justify-start justify-center text-white cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full"
+                    viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">Punit Dhaked</span>
+            </a>
+            <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
+                <a class="cursor-default text-gray-500 ml-1" target="_blank"
+                    rel="noopener noreferrer">punitdhaked584@mail.com</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-gray-400 cursor-pointer" href="https://m.facebook.com/punitdhaked.584/">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-400 cursor-pointer"
+                    href="https://x.com/dhaked_punit?t=C2yZGJ5hD8xpr4eRCSmIEw&s=35">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-400 cursor-pointer"
+                    href="https://www.instagram.com/punitdhaked?igsh=NTc4MTIwNjQ2YQ==">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-400 cursor-pointer"
+                    href="https://www.linkedin.com/in/punit-dhaked-36752b25a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none"
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                        </path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+
+
+    <script>
+        const changingText = document.getElementById('changingText');
+        const words = ['Ui/Ux Designer', 'Web Developer'];
+        let index = 0;
+
+        setInterval(() => {
+            // Apply fade-out effect
+            changingText.classList.add('fade-transition');
+
+            setTimeout(() => {
+                // Change text content
+                changingText.textContent = words[index];
+                index = (index + 1) % words.length;
+
+                // Remove fade-out effect and apply fade-in
+                changingText.classList.remove('fade-transition');
+            }, 500); // Match the fade-out duration
+
+        }, 2000); // Change text every 2 seconds
+    </script>
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+            document.getElementById('overlay').classList.toggle('hidden');
+        });
+
+        document.getElementById('menu-close').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.add('hidden');
+            document.getElementById('overlay').classList.add('hidden');
+        });
+
+        document.getElementById('overlay').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.add('hidden');
+            document.getElementById('overlay').classList.add('hidden');
+        });
+    </script>
+
+    <script>
+        function openModal(img) {
+            const modal = document.getElementById('modal');
+            const modalImg = document.getElementById('modal-img');
+
+            modalImg.src = img.src;
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Disable scroll when modal is open
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            modal.classList.add('hidden');
+            document.body.style.overflow = ''; // Re-enable scroll when modal is closed
+        }
+    </script>
+
+    <!-- <script>
+    document.addEventListener('mousemove', (e) => {
+      const light = document.getElementById('unique-light');
+      light.style.left = `${e.pageX}px`;
+      light.style.top = `${e.pageY}px`;
+
+      const lightSourceRect = light.getBoundingClientRect();
+      const spans = document.querySelectorAll('.unique-text-container span');
+      
+      spans.forEach(span => {
+        const spanRect = span.getBoundingClientRect();
+        const isInLight = (
+          spanRect.left < lightSourceRect.right &&
+          spanRect.right > lightSourceRect.left &&
+          spanRect.top < lightSourceRect.bottom &&
+          spanRect.bottom > lightSourceRect.top
+        );
+
+        span.style.color = isInLight ? 'rgba(255, 255, 255, 1)' : 'rgba(255, 255, 255, 0)';
+      });
+    });
+  </script> -->
+  <script>
+    const paths = document.querySelectorAll('#svg path');
+
+    paths.forEach((path, index) => {
+        path.style.animationDelay = `${index * 0.1}s`; // Adjust delay for different speeds
+    });
+</script>
+
+</body>
+
+</html>

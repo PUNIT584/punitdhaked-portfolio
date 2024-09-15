@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('./font/rafgins/Rafgins-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MyCustomFont2';
+  src: url('./font/magic_retro/Magic\ Retro.ttf') format('truetype');
+}
+#logo{
+  font-family: 'MyCustomFont2', sans-serif;
+}
+
+
+.text-wrapper {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .changing-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .fade-transition {
+    opacity: 0;
+  }
+
+#sexy{
+  font-family: 'MyCustomFont', sans-serif;
+}
+
+
+/* 
+  .unique-container {
+    position: relative;
+    z-index: -10;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(45deg, #ff6b6b, #f06595, #f79f1f, #ffb142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .unique-text-container {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .unique-text-container p {
+    position: relative;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: transparent;
+    margin: 0;
+  }
+
+  .unique-light-source {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.8) 100%);
+    pointer-events: none;
+    mix-blend-mode: screen;
+    overflow: hidden;
+    transform: translate(-50%, -120%);
+  }
+
+  .unique-text-container p span {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0); /* Initially hide text 
+    transition: color 0.1s ease;
+  } */
+#legakya{
+  display: none;
+}
+@media (min-width: 767px) {
+#legakya{
+  display: block;
+}
+}
+
+#svg path {
+  fill: none;
+  stroke: #ffffff; /* Change this to your desired color */
+  stroke-width: 2;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: draw 5s ease-in-out forwards;
+}
+
+@keyframes draw {
+  from {
+      stroke-dashoffset: 100%;
+  }
+  to {
+      stroke-dashoffset: 0;
+  }
+}
